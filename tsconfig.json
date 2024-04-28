@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "ESNext",
+    "strict": true /* 启用所有严格类型检查选项 */,
+    "jsx": "react" /* 启用 JSX 支持，并使用 React 的语法 */,
+    "esModuleInterop": true /* 启用导入兼容性 */,
+    "moduleResolution": "node" /* 模块解析策略 */,
+    "declaration": true,
+    "declarationDir": "./dist/types",
+    "allowSyntheticDefaultImports": true /* 允许从没有设置默认导出的模块中导入默认成员 */,
+    "forceConsistentCasingInFileNames": true /* 强制文件名大小写一致性 */
+  },
+  "include": ["src/**/*"] /* 编译时包含的文件 */,
+  "exclude": ["node_modules"] /* 排除的目录 */
+}
